@@ -1,15 +1,15 @@
 import unittest
 
-from src.card_static import CardGame
+from src.card_game import CardGame
 from src.card import Card
 
 
 class TestCardGame(unittest.TestCase):
 
     def setUp(self):
-        self.card1 = Card(1)
-        self.card2 = Card(2)
-        self.card3 = Card(3)
+        self.card1 = Card('hearts', 1)
+        self.card2 = Card('spades', 2)
+        self.card3 = Card('spades', 3)
         self.cardGame1 = CardGame()
         
     def test_for_ace(self):
