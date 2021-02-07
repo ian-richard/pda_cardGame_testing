@@ -31,6 +31,7 @@ class CardGame:
   dif highest_card(self, card1 card2):
   #typo, 'dif' should be 'def' and a comma between card1 and card2 in the arguments
   if card1.value > card2.value:
+#indentation error, this if statement should be indented by two spaces/1 tab. 
     return card
     #error, this should return 'card1', not 'card'.
   else:
@@ -39,7 +40,9 @@ class CardGame:
 
 
 def cards_total(self, cards):
+#indentation error, needs to be indented
   total
+  #indentation error, needs to be indented
   #total needs to be set to 0, i.e. 'total = 0'
   #empty list added required in constructor named cards, and add method to add card to cards is required. 
   for card in cards:
